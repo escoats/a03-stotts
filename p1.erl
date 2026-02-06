@@ -1,4 +1,5 @@
 -module(p1).
+-team("Elizabeth Coats, Manasi Chaudhary, Emma Coye").
 -export([p1/1]).
 
 % TODO: take N as input from user
