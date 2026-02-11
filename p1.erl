@@ -18,7 +18,7 @@ compute(N) when N == 0 ->
 compute(N) when N > 0 ->
     if
         (N rem 7) == 0 ->
-            io:fwrite("~p~n", [math:pow(N, 0.2)]);
+            io:fwrite("~p~n", [math:pow(N, 0.2)]); 
         true ->
             io:fwrite("~p~n", [facto:factorial(N)])
     end.

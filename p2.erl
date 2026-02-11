@@ -8,5 +8,6 @@ loop() ->
         p1:compute(N),
         loop();
     true ->
+        p1:compute(N),
         ok
     end.
