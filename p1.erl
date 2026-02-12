@@ -20,7 +20,7 @@ compute(N) when N > 0 ->
         (N rem 7) == 0 ->
             io:fwrite("~p~n", [math:pow(N, 0.2)]); 
         true ->
-            io:fwrite("~p~n", [facto:factorial(N)])
+            io:fwrite("~p~n", [factorial(N)])
     end.
 
 
@@ -28,3 +28,9 @@ compute(N) when N > 0 ->
 main() -> 
     Num = get_numData(),
     compute(Num).
+
+
+% Local factorial function (moved from facto module)
+factorial(0) -> 1;
+factorial(N) when N > 0 ->
+    N * factorial(N - 1).
