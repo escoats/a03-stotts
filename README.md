@@ -2,8 +2,6 @@
 
 Team: Elizabeth Coats, Manasi Chaudhary, Emma Coye
 
-**Important: remember to compile `facto.erl` before running!**
-
 ### p1
 
 `get_numData()`: helper function that takes in a number from user input and returns it
